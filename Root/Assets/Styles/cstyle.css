@@ -1,0 +1,144 @@
+/*
+
+	ANTI_TWIN Studios Official Webpage
+	
+	Author: Timothy K. Stuart
+	Date: 4/27/2017
+	Filename: cstyles.css
+	
+	Supporting Files: contact.html
+	
+*/
+
+/* image styles */
+#main img, fieldset {
+	
+	border: 8px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #708090 0%, #B0C4DE 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #708090 0%, #B0C4DE 100%);
+	border-image: linear-gradient(to bottom, #708090 0%, #B0C4DE 100%);
+	border-image-slice: 1;
+}
+
+#imgOne {
+	
+	width: 90%;
+	height: 120px;
+	margin: 10px auto 10px 30px;
+}
+
+/* top tilst styles */
+#topList p{
+
+		text-align: center;
+}
+
+#topList  li {
+	
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#topList ul {
+	
+	background: linear-gradient(#101010, transparent);
+	width: 50%;
+	margin: auto auto 20px auto;
+}
+
+/* field styles */
+#frmContainer {
+	
+	width: 60%;
+	height: 600px;
+	margin: 5px auto 10px 140px;
+}
+
+fieldset {
+	background: url(../Images/frmbackground.jpg);
+	background-size: cover;
+	margin: 10px 0px 10px 2.5px;
+	width: 100%;
+	height: 400px;
+}
+
+legend{
+	background: linear-gradient(#B0C4DE, #708090);
+	color: white;
+	padding: 2px;
+	margin: 0px auto 0px auto;
+}
+
+#newsLetter {
+	
+	width: 500px;
+}
+
+#wantNews {
+	
+	margin-left: 2px;
+}
+
+/* Label styles */
+fieldset label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+}
+
+/* Input control styles */
+input {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 5px 0px;
+	width: 50%;
+}
+
+textarea {
+	
+	resize: none;
+	width: 100%;
+	height: 25%;	
+}
+
+/* Button styles */
+input[type="submit"] {
+	
+	margin-left: 5%;
+}
+
+input[type="submit"], input[type="reset"] {
+	height: 40px;
+	width: 200px;
+	margin-right: 20px;	
+	background: linear-gradient(#B0C4DE, #708090);
+	border-radius: 20px;
+	float: left;
+}
+
+/* Validation styles */
+input:focus {
+	background-color: ivory;
+}
+
+input:focus:invalid {
+	
+	background: rgb(220,255,220) url(go.png) bottom right no-repeat;	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+input:focus:invalid {
+	
+	background: rgb(255,232,233) url(stop.png) bottom right no-repeat;	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;

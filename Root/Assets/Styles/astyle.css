@@ -1,0 +1,100 @@
+/*
+	ANTI_TWIN Studios about page stylesheet
+	
+	Author: Timothy K. Stuart
+	Date:  4/11/2017
+	Filename: astyle.css
+	
+	Supporting Files: about.html
+
+*/
+
+/* img styles */
+#imgContainer {
+	
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#imgContainer img {
+	
+	border: 8px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+	border-image: linear-gradient(to bottom, #B0C4DE 0%, #708090 100%);
+	border-image-slice: 1;
+	width: 40%;
+	margin: 10px 0px 0px 40px;	
+}
+
+#topImg {
+	
+	border: 8px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+	border-image: linear-gradient(to bottom, #B0C4DE 0%, #708090 100%);
+	border-image-slice: 1;
+	display: block;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	width: 95%;
+	height: 125px;
+}
+
+/*  table styles */
+table {
+		
+	font-size: 18px;
+	text-shadow: 1px -1px 2px white;
+	border: 8px double #101010;
+	margin-left: 6px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	width: 98.5%;
+	background: linear-gradient( #B0C4DE, #708090);
+	color: black;
+
+}
+
+thead {
+	
+	background: linear-gradient(#6495ED, #F0F8FF);
+
+}
+
+tfoot {
+	
+	background: linear-gradient(#F0F8FF, #6495ED);
+	text-align: center;
+
+}
+
+th, td {
+	
+	border: 2px solid #101010;
+	vertical-align: top;
+	padding: 3px;
+}
+
+tr td:nth-of-type(2) {
+	
+	text-align: right;
+}
+
+.priceCol {
+	
+	background: linear-gradient(white, #ADD8E6);
+}
+
+#hoursTable {
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#hoursTable tr td:nth-of-type(2) {
+	
+	text-align: center;
+}

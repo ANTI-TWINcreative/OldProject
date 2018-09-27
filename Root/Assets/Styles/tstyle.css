@@ -1,0 +1,225 @@
+/*
+
+	ANTI_TWIN Studios Official Webpage
+	
+	Author: Timothy K. Stuart
+	Date: 4/27/2017
+	Filename: tstyles.css
+	
+	Supporting Files: tunes.html, apBackground.jpg
+	
+*/
+
+/* image styles */
+#main img {
+	
+	border: 8px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #708090 0%, #B0C4DE 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #708090 0%, #B0C4DE 100%);
+	border-image: linear-gradient(to bottom, #708090 0%, #B0C4DE 100%);
+	border-image-slice: 1;
+}	
+
+#topImg {
+	
+	display: block;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	width: 95%;
+	height: 125px;
+}
+
+/* audio player styles */
+#audioContainer {
+	
+	width: 365px;
+	height: 90px;
+	background: url(../Images/apBackground.png);
+	border-radius: 5px;
+	margin: 10px auto 10px auto	
+}
+
+#controlBox {
+	
+	margin: auto;
+	padding: 5px;
+}
+
+#audioControls > button {
+	
+	display: block;
+	cursor: pointer;
+	outline: none;
+
+}
+
+#audioControls > input {
+	
+	outline: none;
+	display: block;
+}
+
+input[type='range'] {
+	
+	-webkit-appearance: none !important;
+	margin: 0px;
+	padding: 0px;
+	background: #000;
+	height: 15px;
+	border-bottom: #333 1px solid;
+}
+
+input[type='range']::-moz-range-track {
+	
+	border: none;
+	background: #000;
+}
+
+input[type=range]::-moz-range-progress {
+	
+  background-color: #2ECCFA;
+  height: 10px;
+}
+
+input[type='range']::-moz-range-thumb {
+	
+	-webkit-appearance: none !important;
+	background: radial-gradient(#FFF, #333);
+	height: 13px;
+	width: 13px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+input[type='range']::-ms-fill-lower {
+	
+	background: #2ECCFA;
+}
+
+input[type='range']::-webkit-slider-thumb {
+	
+	-webkit-appearance: none !important;
+	background: radial-gradient(#FFF, #333);
+	height: 13px;
+	width: 13px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+input[type='range']::-webkit-progress-bar-value {
+	
+  -webkit-appearance: none !important;
+  background: #2ECCFA;
+}
+
+#time {
+	
+	width: 110px;
+	background-color: #101010;
+	border: 2px #666 inset;
+	border-radius: 4px;
+	color: #2ECCFA;
+	text-align: center;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 2px 10px 0px 0px;
+}
+
+#timeSlider {
+	
+	width: 300px;
+	background-color: #101010;
+	border: 2px #666 inset;
+	border-radius: 4px;
+	margin: 5px auto 5px auto;
+}
+
+#playPauseBtn, #stopBtn, #muteBtn {
+	
+	margin: 0px 10px 0px 0px; 
+}
+
+#playPauseBtn {
+	
+	background: url(../Images/playbtn1.png) transparent;
+	background-size: cover;
+	background-position: center;
+	border: medium none !important;
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin-left: 32px;
+	
+}
+
+#stopBtn {
+	
+	background: url(../Images/stopbtn.png) transparent;
+	background-size: cover;
+	background-position: center;
+	border: medium none !important;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+
+#muteBtn {
+	
+	background: url(../Images/volumebtn.png) transparent;
+	background-size: cover;
+	background-position: center;
+	border: medium none !important;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+
+#volSlider {
+	
+	width: 60px;
+	background-color: #101010;
+	border: 2px #666 inset;
+	border-radius: 4px;
+	float: left;
+	margin: 2px 10px 0px 0px;
+}
+
+/* audio container text styles */
+#audioContainer h2 {
+	
+	color: #2ECCFA;
+	font-weight: bold;
+	margin: 5px auto 0px auto;
+	padding: 1px;
+	text-align: center;
+}
+
+/* default audio player */
+#goodPlayerOne, #goodPlayerTwo, #goodPlayerThree {
+	
+	display: block;
+	margin: 15px auto 10px 32%;
+	width: 500px;
+}
+
+#playerOneH2 {
+	
+	margin: 15px auto 10px auto;
+}
+
+#playerOneH2 h2,#playerTwoH2 h2,#playerThreeH2 h2 {
+	
+	color: #2ECCFA;
+	font-weight: bold;	
+	padding: 1px;
+	text-align: center;
+}
+
+
+
+
+
+

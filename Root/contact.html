@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	
+	<!--
+	ANTI_TWIN Studios Official Webpage
+	
+	Author: Timothy K. Stuart
+	Date:  4/27/2017
+	
+	Filename: contact.html
+	Supporting Files: ATlogo.jpg, soundboard3.jpg, main.css, cstyle.css, index.html
+					  about.html, staff.html, tunes.html, events.html
+	-->
+	
+		<meta charset="UTF-8" />
+
+		<title>Contact</title>
+		
+		<link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" />
+		<link href="Assets/Styles/cstyle.css" rel="stylesheet" type="text/css" />
+		<script src="Assets/JavaScript/formsubmit.js"></script>
+
+	</head>
+
+	<body>
+		
+		<header>
+		
+			<img src="Assets/Images/ATlogo.jpg" width="784" alt="ANTI_TWIN Studios" />
+			
+		</header>
+
+			<nav class="sitenav">
+			
+				<ul>
+				
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="staff.html">Staff</a></li>
+					<li><a href="tunes.html">Tunes</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				
+				</ul>
+				
+			</nav>
+			
+			<section id="main">
+			
+				<div id="topList">
+				
+					<h1>Contact us or sign up for our mailing list.</h1>
+					
+					<img src="Assets/Images/soundboard3.jpg" id="imgOne" 
+						alt="A professional soundboard">
+						
+					<p>Feel free contact us at any time through any of the following
+						ways.
+					</p>
+
+					<ul>
+						
+						<li>By Phone: 1(800) 555 - 8863</li>
+						<li>By emial:  deets@antitwin.com</li>
+						<li>By Smoke Signal: Not Recommended</li>
+						
+					</ul>
+					
+				</div>	
+				
+			<div id="frmContainer">
+			
+				<form name="mailForm" id="mailForm" method="post">
+					
+					<fieldset id="ContactFields">
+						<legend>Mailing Information</legend>
+						
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="fname" required="required" />
+						
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lname" required="required" />
+						
+						<label for="address">Address</label>
+						<input type="text" id="address" name="address" required="required" />
+						
+						<label for="city">City</label>
+						<input type="text" id="city" name="city" required="required" />
+						
+						<label for="state">State</label>
+						<input type="text" id="state" name="states" required="required"  />
+						
+						<label for="zip">Zip Code</label>
+						<input type="text" id="zip" name="zip" placeholder="nnnnn (-nnnn)" 
+							pattern="^\d{5}(\-\d{4})?$" />
+						
+						<label for="phone">Phone</label>
+						<input type="tel" id="phone" name="phone" placeholder="(nnn) nnn-nnnn" 
+							required="required" 
+							pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+							
+						<label for="email">Email</label> 
+						<input type="email" id="email" name="email" />
+
+						<label for="comments">Comments</label>
+						<textarea maxlength="250" id="comments" placeholder=
+							"Enter comments here..."></textarea>
+					
+					</fieldset>
+							
+						<div id="newsLetter">
+							
+							<input type="checkbox" id="wantNews" name="wantNews" />
+							<label for="wantNews">Would you like us to send you a monthly newsletter?</label>
+													
+							<div id="subCancel">
+								
+								<input type="submit" value="Submit Information" />
+								<input type="reset" value="Cancel" />
+									
+							</div>
+								
+						</div>
+				</form>
+				
+			</div>	
+				
+			</section>
+
+			<footer>
+			
+				<address>
+				
+					ANTI_TWIN Studios &#183;
+					1444 Rockand Rd. &#183;
+					Soundville, AK 19678 &#183;
+					1(800) 555 - 8863 &#183;
+					deets@antitwin.com
+					
+				</address>
+				
+			</footer>
+			
+	</body>
+	
+</html>	
+				

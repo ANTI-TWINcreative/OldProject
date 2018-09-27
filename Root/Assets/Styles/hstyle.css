@@ -1,0 +1,41 @@
+/*
+
+	ANTI_TWIN Studios Official Webpage
+	
+	Author: Timothy K. Stuart
+	Date: 4/27/2017
+	Filename: hstyles.css
+	
+	Supporting Files: index.html
+	
+*/
+
+/* image styles */
+#main img {
+	
+	display: block;
+	border: 8px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+	border-image: linear-gradient(to bottom, #B0C4DE 0%, #708090 100%);
+	border-image-slice: 1;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	width: 60%;
+	height: 40%;
+}	
+
+.imgThree {
+	
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+

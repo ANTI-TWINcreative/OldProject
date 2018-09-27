@@ -1,0 +1,204 @@
+/*
+	ANTI_TWIN Studios Official Webpage
+	
+	Author: Timothy K. Stuart
+	Date:  4/11/2017
+	Filename: main.css
+	
+	Supporting Files: index.html
+
+*/
+
+/* html background image */
+html {
+	
+	background-image: url(../Images/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 100%;
+	background-color: black;
+}
+
+/* Displays HTML5 structural elements as blocks */
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {
+	
+	display: block; 
+	
+}	
+
+/* Header styles */
+header {
+	
+	background: #101010;
+	border: 8px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #708090 0%, #B0C4DE 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #708090 0%, #B0C4DE 100%);
+	border-image: linear-gradient(to bottom, #708090 0%, #B0C4DE 100%);
+	border-image-slice: 1;
+}
+
+header img {
+	
+	height: 125px;
+}
+
+
+/* Set the default page element styles */
+body {
+	
+	margin: 0px auto;
+	width: 800px;
+	background-color: transparent;
+	color: #B0C4DE;	
+
+}
+
+/* Navigation links */
+nav.sitenav ul {
+	
+	height: 12px;
+	list-style: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	border-left: 8px solid #B0C4DE;
+	border-right: 8px solid #B0C4DE;
+	border-top: 8px solid #B0C4DE;
+	border-bottom: 8px solid #B0C4DE;
+	background: linear-gradient(to right, #101010, #B0C4DE, #101010);
+
+
+}
+
+nav.sitenav li {
+	
+	display: inline-block;
+	float: left;
+	width: 14%;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	margin: 0px 0px 0px 10px;
+	
+}
+
+nav.sitenav li a {
+	
+	display: block;
+	color: #B0C4DE;
+	text-decoration: none;
+	text-shadow: 2px -1px 2px #808080;
+	background-color: #101010;
+	
+}
+
+nav.sitenav li a:hover {
+	
+	color: #101010;
+	background-color: white;
+	
+}
+
+/* h1, h2, p */
+h1 {
+	
+	font-size: 25px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color: #0000CD;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	text-align: center;
+	text-shadow: 2px -1px 2px white;
+	background: linear-gradient(#101010, transparent);
+	
+}
+
+h2 {
+	
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color: #B0C4DE;
+	margin-top: 15px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	
+}
+
+p {
+	
+	margin: 12px;
+	margin-bottom: 12px;
+	margin-left: 20px;
+	font-size: 16px;
+	background: linear-gradient(#101010, transparent);
+	background-size: 100%;
+	padding: 10px;
+	
+}
+
+p::first-letter {
+	
+	font-size: 24px;
+	background: linear-gradient( #B0C4DE, #708090);
+	color: black;
+}
+
+#main {
+	
+  background: transparent;
+  border: 8px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+  border-image: linear-gradient(to bottom, #B0C4DE 0%, #708090 100%);
+  border-image-slice: 1;
+}
+
+#main ul {
+	
+	list-style-type: circle;
+	margin-left: 5px;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+
+#main ul li {
+	
+	margin-bottom: 5px;
+	list-style-type: disc;
+	
+}
+
+#main ul li strong {
+	
+	font-weight: normal;
+	color: rgb(68, 76, 169);
+	
+}
+
+
+footer {
+	
+	margin-top: 2px;
+	border-top: 8px solid #708090;
+	border-left: 8px solid #708090;
+	border-right: 8px solid #708090;
+	border-bottom: 8px solid #708090;	
+	float: left;
+	width: 98%;
+	color: white;
+	
+}
+
+address {
+	
+	font-style: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 5px;
+	
+}

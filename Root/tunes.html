@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	
+	<!--
+	ANTI_TWIN Studios Official Webpage
+	
+	Author: Timothy K. Stuart
+	Date:  4/27/2017
+	
+	Filename: tunes.html
+	Supporting Files: ATlogo.jpg, music1.jpg, discoJesus.mp3, discoJesus.ogg,
+						backSteppin.mp3, backSteppin.ogg, rocketManCover.mp3,
+						rocketManCover.ogg, main.css, tstyle.css, index.html,
+						about.html, staff.html, events.html, contact.html
+	-->
+	
+		<meta charset="UTF-8" />
+
+		<title>Tunes</title>
+		
+		<link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" />
+		<link href="Assets/Styles/tstyle.css" rel="stylesheet" type="text/css" />
+		<script src="Assets/JavaScript/tunesScript.js"></script>
+		 
+	</head>
+
+	<body>
+		
+		<header>
+		
+			<img src="Assets/Images/ATlogo.jpg" width="784" alt="ANTI_TWIN Studios" />
+			
+		</header>
+
+			<nav class="sitenav">
+			
+				<ul>
+				
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="staff.html">Staff</a></li>
+					<li><a href="tunes.html">Tunes</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					
+				</ul>
+				
+			</nav>
+			
+			<section id="main">
+			
+				<h1>Some Sample Tunes</h1>
+				
+				<img src="Assets/Images/music1.jpg" id="topImg" alt="A audio image.">
+				
+				<p>Now, I know our website is really impressive, exciting, 
+					and slightly intimidating, but now you can listen to 
+					some of the tunes we've recorded in the past and prepare
+					to have your heads explode and your ears fall in love
+					with the sweet sounds of our perfect perfection of our 
+					super impressive audio skills. 
+				</p>
+				
+				<div id="audioContainer">
+					
+					<h2>Disco Jesus by: ANTI_TWIN</h2>
+				
+					<div id="controlBox">
+					
+						<div id="audioControls">
+													
+							<input id="timeSlider" type="range" min="0" max="100" 
+								value="0" step="1">
+							
+							<button id="playPauseBtn"></button>
+							
+							<button id="stopBtn"></button>
+
+							<div id ="time">
+							
+								<span id="currentTimeText">00:00</span> / <span 
+									id="durTimeText">00:00</span>
+							</div>	
+
+							<button id="muteBtn"></button>
+
+							<input id="volSlider" type="range" min="0" max="100"
+								value="100" step="1">		
+								
+						</div>
+						
+					</div>
+					
+				</div>
+				
+				<p>And since custom audio players look really cool but 
+					are the bane of my existence...here's some boring default players
+					that actually work! What do you expect? I'm and audio engineer
+					not a web designer.
+				</p>
+				
+				<div id="playerOneH2">
+				
+					<h2>Disco Jesus by: ANTI_TWIN</h2>
+					
+				</div>
+				
+				<div id="goodPlayerOne">	
+				
+					<audio controls>
+					
+						<source src="Assets/Audio/discoJesus.mp3" type="audio/mpeg" />
+						<source src="Assets/Audio/discoJesus.ogg" type="audio/ogg" />
+							
+						<object width="350" height="21">
+						
+							<param name="movie" value="Assets/Audio/discoJesus.swf" />
+							<embed src="Assets/Audio/discoJesus.swf" width="350" height="21" 
+							type="application/x-shockwave-flash" />
+							
+						</object>
+						
+					</audio>
+					
+				</div>
+				
+				<div id="playerTwoH2">
+				
+					<h2>Back Steppin by: The Odd Conversations</h2>
+					
+				</div>
+				
+				<div id="goodPlayerTwo">	
+				
+					<audio controls>
+					
+						<source src="Assets/Audio/backSteppin.mp3" type="audio/mpeg" />
+						<source src="Assets/Audio/backSteppin.ogg" type="audio/ogg" />
+							
+						<object width="350" height="21">
+						
+							<param name="movie" value="Assets/Audio/backSteppin.swf" />
+							<embed src="Assets/Audio/backSteppin.swf" width="350" height="21" 
+							type="application/x-shockwave-flash" />
+							
+						</object>
+						
+					</audio>
+					
+				</div>
+				
+				<div id="playerThreeH2">
+				
+					<h2>Rocket Man by: Elton John covered by: ANTI_TWIN</h2>
+					
+				</div>
+				
+				<div id="goodPlayerThree">	
+				
+					<audio controls>
+					
+						<source src="Assets/Audio/rocketManCover.mp3" type="audio/mpeg" />
+						<source src="Assets/Audio/rocketManCover.ogg" type="audio/ogg" />
+							
+						<object width="350" height="21">
+						
+							<param name="movie" value="Assets/Audio/rocketManCover.swf" />
+							<embed src="Assets/Audio/rocketManCover.swf" width="350" height="21" 
+							type="application/x-shockwave-flash" />
+							
+						</object>
+						
+					</audio>
+					
+				</div>
+				
+			</section>
+
+			<footer>
+			
+				<address>
+				
+					Young Notes &#183;
+					175 South Avenue &#183;
+					Brownwood, TX 76801 &#183;
+					(325) 555 - 0155 &#183;
+					info@youngnotesschool.com
+					
+				</address>
+				
+			</footer>
+			
+	</body>
+	
+</html>	
+				

@@ -1,0 +1,87 @@
+/*
+
+	ANTI_TWIN Studios Official Webpage
+	
+	Author: Timothy K. Stuart
+	Date: 4/27/2017
+	Filename: sstyle.css
+	
+	Supporting Files: staff.html
+	
+*/	
+
+/* container styles */
+#container {
+	
+	margin: 0px auto;
+	padding: 0px;
+}
+
+/* img styles */
+#main img {
+	
+	border: 8px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #B0C4DE 0%, #708090 100%);
+	border-image: linear-gradient(to bottom, #B0C4DE 0%, #708090 100%);
+	border-image-slice: 1;
+}
+
+#imgOne {
+	
+	display: block;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	width: 80%;
+	height: 125px;
+}
+
+#imgTwo {
+	
+	display: block;
+	width: 80%;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	
+}
+
+/* div left styles */
+#left {
+	
+	display: block;
+	margin-left: 5px;
+	width: 45%;
+}
+
+/* aside styles */
+aside {
+	display: block;
+	width: 400px;
+	float: right;
+	background-image: url(../Images/background2.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+	background-size: 70% 100%;
+	border: 8px double #B0C4DE;
+	padding: 10px;
+	margin: 1px 0px 20px 20px;
+	margin-right: 10px;
+	height: 335px;
+	overflow: auto;
+}
+
+aside img {
+	
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	width: 47%;
+	height: 53%;
+	
+}
+
